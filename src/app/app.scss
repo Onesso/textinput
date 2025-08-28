@@ -1,6 +1,13 @@
 .root {
   display: flex;
   justify-content: center;
-  align-items: ce;
+  align-items: center;
   height: 100vh;
+
+  .sumbit-form {
+    mat-form-field {
+      width: 100%;
+      min-width: 800px;
+    }
+  }
 }

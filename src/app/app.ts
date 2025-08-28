@@ -13,7 +13,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule, ReactiveFormsModule],
+  imports: [FormsModule, ReactiveFormsModule, MatInputModule],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
